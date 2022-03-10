@@ -1,0 +1,10 @@
+<div>
+  <img #image [src]="imgSource" crossorigin>
+</div>
+
+<img [src]="imgDestination">
+
+<button (click)="changeAspectRatio(16/9)">16x9</button>
+<button (click)="changeAspectRatio(4/3)">4x3</button>
+<button (click)="changeAspectRatio(3/4)">3x4</button>
+<button (click)="changeAspectRatio(1)">1</button>
